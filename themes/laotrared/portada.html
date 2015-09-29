@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+{% if meta.description %}
+	<meta name="description" content="{{ meta.description }}"> 
+{% endif %}{% if meta.robots %}
+	<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/nanobar/0.2.1/nanobar.min.js"></script> -->
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ theme_url }}/assets/css/principal.css">
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body class="home">
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img src="{{ theme_url }}/assets/images/logo.png" alt="La Otra Red"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+				{% for page in pages %}
+						<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+				{% endfor %}
+					<!-- <li class="active"><a href="#">Activo!</a></li> -->
+				</ul>
+			</div>
+		</div>
+	</div> 
+
+	<header id="head">
+		<div class="container">
+			<div class="row">
+				<h1 class="lead">[logo]LA OTRA RED</h1>
+				{% if meta.description %}
+				<p class="tagline">{{ meta.description }}</a></p>{% endif %}
+				<p><a class="btn btn-default btn-lg" role="button">LEE MÁS</a> <a class="btn btn-action btn-lg" role="button">ÚNETE</a></p>
+			</div>
+		</div>
+	</header>
+
+	<div class="container text-center">
+		<br> <br>
+		<h2 class="thin">Lorem ipsum dolor sit amet</h2>
+		<p class="text-muted">
+			Lorem ipsum dolor sit amet:<br>
+			Lorem ipsum dolor sit amet, consectteur ven alah amet allahu akbar daron.
+		</p>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<article class="col-md-8 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Lorem ipsum dolor sit amet, consectetur.</h1>
+				</header>
+				
+			</article>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6"> <!-- Esto no es fijo -->
+				<h3>Lorem ipsum dolor sit amet?</h3>
+				<p>Yes! You only need to push some <s>code</s> patch to git@github.com/maverickp/laotrared-web.</p>
+			</div>
+			<div class="col-sm-6">
+				<h3>Can you give me some souvenirs?</h3>
+				<p>Yes! You only need to push some <s>patch</s> code to [git@]github.com/maverickp/laotrared-web.</p>
+			</div>
+		</div>
+
+</div>
+
+	<footer id="footer" class="top-space">
+		<div class="footerbasic">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Follow me</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons">
+								<a href=""><i class="fa fa-twitter fa-2"></i></a> <!-- most libre -->
+								<a href=""><i class="fa fa-github fa-2"></i></a> <!-- firmwares -->
+								<!-- <a href=""><i class="fa fa-facebook fa-2"></i></a>  -->
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Some placeholder</h3>
+						<div class="widget-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet fugiat nesciunt placeat provident cumque accusamus tataque?</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="footerlogos">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-12 widget">
+						<div class="widget-body">
+							<a><img src="{{ theme_url }}/assets/images/logo_r00thouse.jpg"></a> <!-- TODO -->
+							<a><img src="{{ theme_url }}/assets/images/logo_uclibre.png"></a>
+							<!-- TODO -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
+	<script src="{{ theme_url }}/assets/js/jQuery.headroom.min.js"></script>
+	<script src="{{ theme_url }}/assets/js/principal.js"></script>
+</body>
+</html>
