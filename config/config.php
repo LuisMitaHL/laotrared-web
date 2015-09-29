@@ -24,12 +24,12 @@ $config['site_title'] = 'LaPazLibre';              // Site title
 /*
  * THEME
  */
-// $config['theme'] = 'default';                // Set the theme (defaults to "default")
-// $config['twig_config'] = array(              // Twig settings
+$config['theme'] = 'laotrared';                // Set the theme (defaults to "default")
+//$config['twig_config'] = array(              // Twig settings
 //	'cache' => false,	                        // To enable Twig caching change this to CACHE_DIR
 //	'autoescape' => false,                      // Autoescape Twig vars
-//	'debug' => false                            // Enable Twig debug
-// );
+//	'debug' => true                            // Enable Twig debug
+//);
 
 /*
  * CONTENT
@@ -43,7 +43,7 @@ $config['content_dir'] = 'content/';    // Content directory
 /*
  * TIMEZONE
  */
-// date_default_timezone_set('UTC');              // Timezone may be reqired by your php install
+//date_default_timezone_set('UTC');              // Timezone may be reqired by your php install
 
 /*
  * CUSTOM
