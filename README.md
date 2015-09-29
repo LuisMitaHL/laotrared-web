@@ -2,10 +2,12 @@ La Otra Red
 ===========
 
 "La Otra Red" es el proyecto que dio forma a la red del mismo nombre.
+
 "La Otra Red" es la red montada con el objetivo de acercarnos a la soberanía tecnológica en las telecomunicaciones en Bolivia.
+
 Muchas personas voluntarias y organizaciones contribuyen al proyecto de forma desinteresada. Revisa el código aquí, o accede a la página web oficial:
 
-[https://laotrared.net/)](http://laotrared.net/)
+[https://laotrared.net/](http://laotrared.net/)
 
 Pico
 ====
