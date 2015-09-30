@@ -1,6 +1,6 @@
 /*
 Title: La Otra Red
-Description: Red de Telecomunicaciones Libre y Neutral
+Description: Pilar para una Red de Telecomunicaciones Libre y Neutral
 Template: portada
 */
 
