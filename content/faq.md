@@ -104,4 +104,3 @@ The `config/config.php.template` lists all of the settings and their defaults. T
 ### Documentation
 
 For more help have a look at the Pico documentation at [http://picocms.org/docs](http://picocms.org/docs)
-</div>
