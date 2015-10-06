@@ -1,9 +1,19 @@
+La Otra Red
+===========
+
+"La Otra Red" es el proyecto que dio forma a la red del mismo nombre.
+
+"La Otra Red" es la red montada con el objetivo de acercarnos a la soberanía tecnológica en las telecomunicaciones en Bolivia.
+
+Muchas personas voluntarias y organizaciones contribuyen al proyecto de forma desinteresada. Revisa el código aquí, o accede a la página web oficial:
+
+[https://laotrared.net/](http://laotrared.net/)
+
 Pico
 ====
-
 Pico is a stupidly simple, blazing fast, flat file CMS. See http://picocms.org/ for more info.
-<!--flippa verify-->
-[![I Love Open Source](http://www.iloveopensource.io/images/logo-lightbg.png)](http://www.iloveopensource.io/projects/524c55dcca7964c617000756)
+
+![I Love Open Source](http://www.iloveopensource.io/images/logo-lightbg.png)
 
 Install
 -------

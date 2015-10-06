@@ -1,6 +1,8 @@
 vendor/
 # composer.lock
 *.bin
+*.svg
+*.xcf
 .directory
 plugins/pico_draft.php
 wtf.html
